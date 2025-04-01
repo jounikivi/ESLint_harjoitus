@@ -1,3 +1,4 @@
+// test comment
 var aPriceList;
 
 export var setPriceList = (priceList) => {
