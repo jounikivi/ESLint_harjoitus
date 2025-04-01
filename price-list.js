@@ -1,10 +1,9 @@
-// test comment
-var aPriceList;
+let aPriceList;
 
-export var setPriceList = (priceList) => {
+export const setPriceList = (priceList) => {
   aPriceList = priceList;
 };
 
-export var getPrice = (itemId, quantity) => {
+export const getPrice = (itemId, quantity) => {
   return 500;
 };
